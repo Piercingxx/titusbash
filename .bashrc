@@ -507,8 +507,7 @@ install_bashrc_support() {
 			cargo install exa
 			;;
 		"arch")
-			paru -S multitail tree zoxide trash-cli fzf bash-completion fastfetch starship exa --noconfirm
-			sudo pacman -s bat --noconfirm
+			paru -S multitail tree zoxide trash-cli fzf bash-completion fastfetch starship exa bat --noconfirm
 			;;
 		"slackware")
 			echo "No install support for Slackware"
